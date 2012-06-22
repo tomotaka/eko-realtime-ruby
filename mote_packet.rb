@@ -28,6 +28,8 @@ class MotePacket
       v_type = pde_node.xpath("./ConvertedValueType/text()").text
       if v_type =~ /uint/ then
         value = value.to_i
+      elsif v_type =~ /float/ then
+        value = value.to_f
       end
       values[name] = value
       value_types[name] = v_type
