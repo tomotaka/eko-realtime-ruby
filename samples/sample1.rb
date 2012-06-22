@@ -1,8 +1,7 @@
 #!/usr/bin/ruby
 # coding: utf-8
 
-
-require File.expand_path("./eko_realtime.rb", File.dirname(__FILE__))
+require File.expand_path("../eko_realtime.rb", File.dirname(__FILE__))
 
 class MyEkoEventListener < EkoEventListener
   def eko_sensor_event(mote_packet)
