@@ -1,0 +1,5 @@
+event-driven realtime data retrieval framework for Eko-Mote written in Ruby
+
+
+Install: place eko_realtime.rb and mote_packet.rb to same directory and require eko_realtime.rb
+Usage: see samples/sample1.rb
